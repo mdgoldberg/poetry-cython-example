@@ -1,0 +1,114 @@
+sandbox.json
+develop.json
+
+# C extensions
+*.so
+*.c
+*.py[cod]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+#bin
+var
+sdist
+develop-eggs
+.installed.cfg
+#lib
+lib64
+__pycache__
+.mypy_cache
+
+# Installer logs
+pip-log.txt
+pip-wheel-metadata
+*.log
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+*.swp
+
+# Node modules for any node stuff other than the web app
+node_modules/
+
+# web app
+app/node_modules/
+app/bin/configs/
+
+# CACHE
+cached_data/
+data_temp/
+web/static/
+
+# Mac
+.DS_Store
+
+# Eclipse and Scala
+.metadata/
+.settings/
+.scala_dependencies
+.project
+.classpath
+.cache
+*.class
+
+# Common image formats:
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# ipython notebook
+*ipynb_checkpoints/
+
+# Pickle Data Files
+*.p
+*.pickle
+
+# PyCharm files
+.idea
+.idea/*
+*.swo
+
+# configs
+config.toml
+config-*.toml
+
+# distributions local json files
+distributions/*.json*
+
+# kernprof profiler output
+*.lprof
+
+# editor tempfiles
+*~
+\#*\#
+
+# dump files
+*.dump
+
+*.hdf5
+*.bak
+*.lprof
+
+catboost_info/
+
+.venv/
+workflow/lib
+
+drip/config.json
+drip/lib
